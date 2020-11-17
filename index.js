@@ -1,6 +1,5 @@
 var express = require('express');
 var app = express();
-// for parsing the body in POST request
 var bodyParser = require('body-parser');
 require("dotenv").config({path:"./.env"});
 
